@@ -1,0 +1,141 @@
+---
+title: "Blog"
+---
+
+### An Easy Guide to Writing Functions in R
+
+#### Definition: 
+What is a function in R? A function in R is similar to a function in calculus because they both take input(s), perform operations on those input(s) and produce an output.
+
+So in calculus a function is something like:
+
+f(x) = 2x + 1; where 2x + 1 is the operation to be performed.
+
+If we input x = 1. We get an output of:
+
+f(1) = 2(1) + 1 = 3
+
+Functions in R have the same fundamental idea. We need:
+
+1. Input(s) also called arguments in R
+2. To define the operation that will produce the output called the function
+
+For the R demonstrations in this tutorial, I will be using base R. Feel free to use RMarkdown as you follow along. I will also assume each person utilizing this tutorial has downloaded R studio. Otherwise, this is a [link](https://rstudio.com/products/rstudio/download/) to download R Studio. 
+
+#### Working Environment
+In R studio, click on file -> new file -> R Script:
+
+#### General structure of an R function
+Before we begin, let's explore the overall structure of an R function.
+
+The overall structure of an R function has three important components:
+
+1. Name- name the function in a way that specifies what the function does (this is good coding practice). E. g. If we want to write a function that calculates the mean blood pressure, we can name it: Avgbp <-
+
+2. Detail the input (or argument). In R this is done with the function called function. E.g. function (a), where a and b are the input values for the function.
+
+3. Body of the function which is the code that defines the operations on the input to give the desired output. This is usually written in curly brackets.
+
+Examples overall structure of a function:
+
+Avgbp <- function(a) {
+Body 
+}
+
+
+#### Example: 
+Let's compute the average systolic blood pressure (sap) of patients as shown below:
+
+##### Group 1: 
+
+Patient a: sbp = 120
+
+Patient b: sbp = 135
+
+Patient c: sbp = 115
+
+##### Group 2: 
+Patient d: sbp = 118
+
+Patient e: sbp = 127
+
+Patient f: sbp = 109
+
+##### Group 3: 
+Patient g: sbp = 139
+
+Patient h: sbp = 162
+
+Patient i: sbp = 105
+
+##### Group 4: 
+Patient j: sbp = 102
+
+Patient k: sbp = 133
+
+Patient l: sbp = 129
+
+```{r}
+#Average sbp group 1: 
+meansbp1 <- sum(120, 135, 115)/3
+meansbp1
+```
+
+```{r}
+#Average sbp group 2: 
+meansbp2 <- sum(118, 127, 109)/3
+meansbp2
+```
+
+```{r}
+#Average sbp group 3: 
+meansbp3 <- sum(139, 162, 105)/3
+meansbp3
+```
+
+```{r}
+#Average sbp group 4: 
+meansbp4 <- sum(102, 133, 129)/3
+meansbp4
+```
+To calculate the average systolic blood pressure of the four groups, I had to copy and paste the formular I used for the first group 3 times. 
+
+#### Rule of Thumb
+The rule of thumb in R programming is that if you have copied and pasted a formular two times, rather than repeat this the third time: WRITE A FUNCTION! 
+
+### Let's Write a function to calculate the average systolic blood pressure 
+```{r}
+Avgsbp <- function(x) {
+n <- length(x)
+sum.x <- sum(x)
+mean <- sum.x/n
+return(mean)
+}
+```
+
+##### Elements of the function above explained
+1. Name: We named our function Avgsbp 
+2. Input: We have only one input for our function which is sbp. Functions can have more than one input
+3. Operation 1: We defined the length of our values and placed it in a vector called n
+4. Operation 2: We defined the sum.x vector to calculate the sum of the values of x
+5. Operation 3: We defined the mean vector to calculate the mean using sum.x and n
+6. Output: We used to return function to call our output
+
+### Let's test our function
+```{r}
+#Average sbp group 1
+Avgsbp(c(120,135,115))
+```
+```{r}
+#Average sbp group 2
+Avgsbp(c(118, 127, 109))
+```
+
+```{r}
+#Average sbp group 3
+Avgsbp(c(139, 162, 105))
+```
+
+```{r}
+Avgsbp(c(102, 133, 129))
+```
