@@ -13,7 +13,7 @@ Aspiring Data Scientist
 
 <img src= "IMG_0481-1.jpg" style="width:40%; border:5px solid; color: pink; margin-right: 20px" align="left">
 
-I am an aspiring biostatistician/ data scientist / analyst who is passionate about infectious diseases research. I am particularly interested in highly pathogenic viruses like Lassa, Ebola and their mechanisms of cellular damage in organ systems like the brain. I am currently pursuing a masters degree in Biostatistics and Data Science at the [Weill Cornell Medical College of Cornell Univeristy](https://hpr.weill.cornell.edu). 
+I am an aspiring biostatistician/ data scientist / analyst who is passionate about infectious diseases research. I am particularly interested in highly pathogenic viruses like Lassa, Ebola and their mechanisms of cellular damage in organ systems like the brain. I am currently pursuing a masters degree in Biostatistics and Data Science at the [Weill Cornell Medical College of Cornell University](https://hpr.weill.cornell.edu). 
 
 For my undergraduate studies, I studied biological sciences, mathematics and economics at the [University at Buffalo](http://www.buffalo.edu). I then worked at the Galveston National Laboratory at the [University of Texas Medical Branch](https://www.utmb.edu) for two years where I conducted research on the following viruses: Lassa virus, Junin virus, Zika virus, Influenza virus, as well as HIV.  
 
