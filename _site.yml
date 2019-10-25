@@ -1,0 +1,26 @@
+name: "Chiomah Ezeomah"
+output_dir: "."
+navbar:
+  title: "Chiomah Ezeomah"
+  left:
+    - text: "About"
+      href: about.html
+    - text: "Research"
+      href: research.html
+    - text: "Blog"
+      href: blog.html 
+  
+    
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:<qce4001@med.cornell.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/chi-sunshine/
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/ChiomahEzeomah
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/chiomahezeomah/
+      
+output:
+  html_document
+    

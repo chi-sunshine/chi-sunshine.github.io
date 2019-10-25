@@ -1,0 +1,8 @@
+---
+title: "About"
+---
+
+### 
+
+I graduated magna cum laude with a Bachelor of Science degree in Biological Sciences with honors and a Bachelor of Arts degree in Mathematics-Economics with honors and distinction from the University at Buffalo. I have over two years of work experience in virology research at the Galveston National Laboratory where I worked on different scientific research projects. 
+I am currently pursuing a Masters of Science degree at Cornell University's Weill Cornell Graduate School of Medical Sciences. As I develop my portfolio I will deposit my work on [Github](https://github.com/chi-sunshine/) and [Shiny.io](https://chiomahezeomah.shinyapps.io).
