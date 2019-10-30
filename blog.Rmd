@@ -20,10 +20,10 @@ Functions in R have the same fundamental idea. We need:
 1. Input(s) also called arguments in R
 2. To define the operation that will produce the output called the function
 
-For the R demonstrations in this tutorial, I will be using base R. Feel free to use RMarkdown as you follow along. I will also assume each person utilizing this tutorial has downloaded R studio. Otherwise, this is a [link](https://rstudio.com/products/rstudio/download/) to download R Studio. 
+For the R demonstrations in this tutorial, I will be using RMarkdown. Feel free to use base R as you follow along. I will also assume each person utilizing this tutorial has downloaded R studio. Otherwise, this is a [link](https://rstudio.com/products/rstudio/download/) to download R Studio. 
 
 #### Working Environment
-In R studio, click on file -> new file -> R Script:
+In R studio, click on file -> new file -> R Markdown:
 
 #### General structure of an R function
 Before we begin, let's explore the overall structure of an R function.
@@ -32,19 +32,21 @@ The overall structure of an R function has three important components:
 
 1. Name- name the function in a way that specifies what the function does (this is good coding practice). E. g. If we want to write a function that calculates the mean blood pressure, we can name it: Avgbp <-
 
-2. Detail the input (or argument). In R this is done with the function called function. E.g. function (a), where a and b are the input values for the function.
+2. Detail the input (or argument). In R this is done with the function called function. E.g. function (a), where a is the input value for the function.
 
 3. Body of the function which is the code that defines the operations on the input to give the desired output. This is usually written in curly brackets.
 
-Examples overall structure of a function:
+So in brief, the general structure of a function should look like this: 
 
 Avgbp <- function(a) {
+
 Body 
+
 }
 
 
 #### Example: 
-Let's compute the average systolic blood pressure (sap) of patients as shown below:
+Let's compute the average systolic blood pressure (sbp) of patients as shown below:
 
 ##### Group 1: 
 
@@ -101,7 +103,7 @@ meansbp4
 To calculate the average systolic blood pressure of the four groups, I had to copy and paste the formular I used for the first group 3 times. 
 
 #### Rule of Thumb
-The rule of thumb in R programming is that if you have copied and pasted a formular two times, rather than repeat this the third time: WRITE A FUNCTION! 
+The rule of thumb in R programming is that if you have copied and pasted a formular two times, rather than repeat this a third time: WRITE A FUNCTION! 
 
 ### Let's Write a function to calculate the average systolic blood pressure 
 ```{r}
@@ -115,11 +117,11 @@ return(mean)
 
 ##### Elements of the function above explained
 1. Name: We named our function Avgsbp 
-2. Input: We have only one input for our function which is sbp. Functions can have more than one input
+2. Input: We have only one input for our function which is sbp. Note: Functions can have more than one input
 3. Operation 1: We defined the length of our values and placed it in a vector called n
 4. Operation 2: We defined the sum.x vector to calculate the sum of the values of x
 5. Operation 3: We defined the mean vector to calculate the mean using sum.x and n
-6. Output: We used to return function to call our output
+6. Output: We used the return function to call our output
 
 ### Let's test our function
 ```{r}

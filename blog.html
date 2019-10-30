@@ -336,11 +336,11 @@ $(document).ready(function () {
 <li>Input(s) also called arguments in R</li>
 <li>To define the operation that will produce the output called the function</li>
 </ol>
-<p>For the R demonstrations in this tutorial, I will be using base R. Feel free to use RMarkdown as you follow along. I will also assume each person utilizing this tutorial has downloaded R studio. Otherwise, this is a <a href="https://rstudio.com/products/rstudio/download/">link</a> to download R Studio.</p>
+<p>For the R demonstrations in this tutorial, I will be using RMarkdown. Feel free to use base R as you follow along. I will also assume each person utilizing this tutorial has downloaded R studio. Otherwise, this is a <a href="https://rstudio.com/products/rstudio/download/">link</a> to download R Studio.</p>
 </div>
 <div id="working-environment" class="section level4">
 <h4>Working Environment</h4>
-<p>In R studio, click on file -&gt; new file -&gt; R Script:</p>
+<p>In R studio, click on file -&gt; new file -&gt; R Markdown:</p>
 </div>
 <div id="general-structure-of-an-r-function" class="section level4">
 <h4>General structure of an R function</h4>
@@ -348,15 +348,17 @@ $(document).ready(function () {
 <p>The overall structure of an R function has three important components:</p>
 <ol style="list-style-type: decimal">
 <li><p>Name- name the function in a way that specifies what the function does (this is good coding practice). E. g. If we want to write a function that calculates the mean blood pressure, we can name it: Avgbp &lt;-</p></li>
-<li><p>Detail the input (or argument). In R this is done with the function called function. E.g. function (a), where a and b are the input values for the function.</p></li>
+<li><p>Detail the input (or argument). In R this is done with the function called function. E.g. function (a), where a is the input value for the function.</p></li>
 <li><p>Body of the function which is the code that defines the operations on the input to give the desired output. This is usually written in curly brackets.</p></li>
 </ol>
-<p>Examples overall structure of a function:</p>
-<p>Avgbp &lt;- function(a) { Body }</p>
+<p>So in brief, the general structure of a function should look like this:</p>
+<p>Avgbp &lt;- function(a) {</p>
+<p>Body</p>
+<p>}</p>
 </div>
 <div id="example" class="section level4">
 <h4>Example:</h4>
-<p>Let’s compute the average systolic blood pressure (sap) of patients as shown below:</p>
+<p>Let’s compute the average systolic blood pressure (sbp) of patients as shown below:</p>
 <div id="group-1" class="section level5">
 <h5>Group 1:</h5>
 <p>Patient a: sbp = 120</p>
@@ -401,7 +403,7 @@ meansbp4</code></pre>
 </div>
 <div id="rule-of-thumb" class="section level4">
 <h4>Rule of Thumb</h4>
-<p>The rule of thumb in R programming is that if you have copied and pasted a formular two times, rather than repeat this the third time: WRITE A FUNCTION!</p>
+<p>The rule of thumb in R programming is that if you have copied and pasted a formular two times, rather than repeat this a third time: WRITE A FUNCTION!</p>
 </div>
 </div>
 <div id="lets-write-a-function-to-calculate-the-average-systolic-blood-pressure" class="section level3">
@@ -416,11 +418,11 @@ return(mean)
 <h5>Elements of the function above explained</h5>
 <ol style="list-style-type: decimal">
 <li>Name: We named our function Avgsbp</li>
-<li>Input: We have only one input for our function which is sbp. Functions can have more than one input</li>
+<li>Input: We have only one input for our function which is sbp. Note: Functions can have more than one input</li>
 <li>Operation 1: We defined the length of our values and placed it in a vector called n</li>
 <li>Operation 2: We defined the sum.x vector to calculate the sum of the values of x</li>
 <li>Operation 3: We defined the mean vector to calculate the mean using sum.x and n</li>
-<li>Output: We used to return function to call our output</li>
+<li>Output: We used the return function to call our output</li>
 </ol>
 </div>
 </div>
