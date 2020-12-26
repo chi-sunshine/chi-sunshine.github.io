@@ -9,17 +9,25 @@ I have been involved with a few translational research projects. Below is a brie
 
 [Prof. David Walker M.D.](https://researchexperts.utmb.edu/en/persons/david-walker)
 
-1.	Sequelae of Lassa Fever - Post Viral Cerebellar Ataxia (Review paper submitted to scientific journal for peer review):  Authors - Chiomah Ezeomah, Adeyi Adoga, Chikwe Ihekweazu, Slobodan Paessler, Irma Cisneros, Oyewale Tomori, David Walker.
+1.	Sequelae of Lassa Fever: Post Viral Cerebellar Ataxia. Chiomah Ezeomah, Adeyi Adoga, Chikwe Ihekweazu, Slobodan Paessler, Irma Cisneros, Oyewale Tomori, David Walker. OFID (2019). [Link](https://academic.oup.com/ofid/article/6/12/ofz512/5650934)
 
-2.	Case-Control Study of the Association of Lassa virus exposure and hearing loss: Performed a case-controlled study to investigate the association between Lassa virus infection and hearing loss in patients with partial or complete hearing impairment at the Jos University Teaching Hospital (JUTH). Faculty Sponsor: Prof. David Walker; Nigerian supervising authors: Prof. Oyewale Tomori, Prof. Adeyi Adoga (Head of the Otorhinolaryngology Department at JUTH).
+2.	Chiomah Ezeomah, Benjamin Babson, Tyler Manning, Emmanuel Jonathan, Sophie Osawe, Yakubu Mangai, Petronila Nwadike, Mohammad Muazu, Chris Akude, Edwin Eseigbe, Atiene Sagay, Godwin Imade, Oche Agbaji, Chikwe Ihekweazu, Alash’le Abimiku, Slobodan Paessler, Irma Cisneros, Oyewale Tomori, Adeyi Adoga, and David Walker. Case Control Study of the association between Lassa virus infection and hearing loss. (In Progress). 
 
 [Dr. Irma Cisneros](https://www.utmb.edu/pathology/faculty-directory/irma-lisa-cisneros-phd)
 
-3.	Fentanyl Self-Administration Impacts Brain-Specific Immune Responses in Male Sprague-Dawley Rats: Was responsible for RNA extraction, cDNA preparation, protein extraction and quantification, gene expression assays using quantitative real-time polymerase chain reaction technology, western blot assays. Helped with data analysis and manuscript preparation.
+3.	Chiomah Ezeomah, Kathryn Cunningham, Sonja Stutz, Robert Fox, Natalya Bukreyeva, Kelly Dineley, Slobodan Paessler, and Irma Cisneros. Fentanyl self-administration impacts brain immune responses in male Sprague-Dawley rats. Brain, Behavior and Immunity (2020). [Link](https://www.sciencedirect.com/science/article/abs/pii/S0889159119314333)
 
-4.	Characterizing the Effects of Cocaine on Mitochondrial Antiviral Signaling Protein (MAVS) and Stimulator of Interferon Genes (STING) in HIV transgenic rats (Manuscript being Prepared): Was responsible for the gene expression assays using quantitative polymerase chain reaction (qPCR) technology and western blot assays including RNA extraction, cDNA preparation, protein extraction and quantification, in addition to data analysis.
+4.	Chiomah Ezeomah, Amanda Persons, Celeste Napier, Irma E. Cisneros. Cocaine alters immune responses in the frontal cortex of HIV-1 transgenic rats. (In Progress)
 
 [Prof. Slobodan Paessler](https://www.utmb.edu/pathology/faculty-directory/slobodan-paessler-dvm-phd)
 
-5.	The glycoprotein of the live-attenuated Junin virus vaccine strain induces ER stress and forms aggregates prior to degradation in the lysosome (submitted for peer review): Helped in a study to characterize the vaccine GPC (Candid vaccine) in order to link removal of N-Linked glycans to attenuation. Authors: John Manning, Nadya Yun, Alexey Seregin, Takaaki Koma, Rachel Sattler, Chiomah Ezeomah, Cheng Huang, Juan de la Torre, and Slobodan Paessler
+5.	John Manning, Nadya Yun, Alexey Seregin, Takaaki Koma, Rachel Sattler, Chiomah Ezeomah, Cheng Huang, Juan de la Torre, and Slobodan Paessler. The glycoprotein of the live-attenuated Junin virus vaccine strain induces ER stress and forms aggregates prior to degradation in the lysosome. Journal of Virology (2020). [Link](https://jvi.asm.org/content/94/8/e01693-19)
+
+[Prof. Myung-Hee Lee Ph.D.](https://vivo.weill.cornell.edu/display/cwid-myl2003)
+
+1.	Cody Nolan, Karl Reis, Salama Fadhil, Anthony Etyang, Chiomah Ezeomah, Justin Kingery, Bernard Desderius, Myung-Hee Lee, Saidi Kapiga, Robert Peck. Nocturnal dipping of blood pressure and heart rate in people with HIV in Tanzania. (Submitted)
+
+[Prof. Monika Safford M.D.](https://vivo.weill.cornell.edu/display/cwid-mms9024)
+
+1.	Jamuna Krishnan, Mangala Rajan, Ben Baer, Chiomah Ezeomah, Shana Hill, Mark Alshak, Katherine Hoffman, Fernando Martinez, Edward Schenck, Monika Safford. Mortality impact of hospital level COVID-19 intubation strategy. (Abstract Submitted)
 
